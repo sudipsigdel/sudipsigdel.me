@@ -245,6 +245,7 @@ h1.heading.pink:after {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
+  position: relative;
 }
 
 .custom-box .client-logo {
@@ -565,10 +566,10 @@ ul.main-nav.show-it {
   transition-delay: .25s;
 }
 
-
-
-
-
+.indicator-arrow,
+.indicator-arrow-l {
+  display: none;
+}
 
 
 
@@ -639,6 +640,26 @@ ul.main-nav.show-it {
   .swiper-button-prev,
   .swiper-button-next {
     display: none;
+  }
+
+  .indicator-arrow {
+    display: block;
+    font-size: 24px;
+    color: #333;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 2;
+  }
+
+  .indicator-arrow-l {
+    display: block;
+    font-size: 24px;
+    color: #333;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: 2;
   }
 
   .swiper-container {
