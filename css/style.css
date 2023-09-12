@@ -60,7 +60,7 @@ img {
 
 /* Hero Section */
 header.hero {
-  background: url(../assets/hero-bg.jpg) no-repeat left center fixed;
+  background: url(../assets/hero-bg.jpg) no-repeat right center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -137,7 +137,7 @@ ul.social-links li a img {
 .case-study .col-md-12 {
   transform: translateY(-80px);
   -webkit-transform: translateY(-80px);
-  padding: 5em 3em;
+  padding: 5em 3em 0 3em;
   background-color: #fff;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
 }
@@ -233,6 +233,39 @@ h1.heading.pink:after {
   transform: scale(1.15);
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
   z-index: 2;
+}
+
+.custom-box {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+  padding: 3.5em 2em;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  text-align: center;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.custom-box .client-logo {
+  max-height: 120px;
+}
+
+.custom-box h3.title {
+  color: #4e4c58;
+  margin-bottom: 2em;
+}
+
+.custom-box p.tag {
+  color: #7447ae;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1em;
+}
+
+.custom-box a {
+  color: #333;
+  font-style: italic;
+  opacity: 0.5;
 }
 
 .swiper-button-next,
